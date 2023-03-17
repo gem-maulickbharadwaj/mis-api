@@ -1,0 +1,21 @@
+{
+  "environment": "beta",
+  "project_name": "MIS_API",
+  "report_name": "MIS_API_Report",
+  "sub_id": "test_id",
+  "enter_point": "https://apis.gemecosystem.com/enter-point",
+  "jewel_user1": "tchauhan",
+  "jewel_bridge_token1": "3548cf51-4f28-4949-a8db-bdbb2f3027091673956073987",
+  "glueCode": "com.qa.mis.stepdefinitions",
+  "email_report": null,
+  "email_to": "",
+  "email_cc": "",
+  "beta": {
+    "loginAPI": "Authenticate/Authenticate",
+    "FetchDataForEmployeeDirectory": "User/FetchDataForEmployeeDirectory",
+    "postLeaveBalanceData": "Dashboard/GetLeaveBalanceData",
+    "postLastLeaveRecordsDetails": "LeaveManagement/GetLastRecordDetails",
+    "postOutingTypes": "LeaveManagement/GetOutingType",
+    "postDatesForWFH": "LeaveManagement/FetchDatesToRequestWorkFromHome"
+  }
+}
